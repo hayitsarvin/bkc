@@ -1,0 +1,208 @@
+
+.product-code-page{
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 5%;
+}
+.product-code-page .video-back-div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    /* filter: blur(8px); */
+}
+.product-code-page .video-back-div #bgvid{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+.codes-div{
+    background-color: rgba(255, 255, 255, 0.758);
+    border-radius: 15px;
+    display: flex;
+    overflow: hidden;
+    height: 300px;
+    width: 500px;
+    backdrop-filter: blur(15px);
+}
+.codes-div .application-image-mask{
+    width: 40%;
+    height: 100%;
+}
+.codes-div .application-image-mask img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.codes-div .code-content-div{
+    padding: 15px;
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.codes-div .code-btn{
+    width: 45%;
+    text-align: center;
+}
+.codes-div .code-btn a{
+    width: 100%;
+    /* display: block; */
+    text-decoration: none;
+    padding: 8px 0px ;
+    display: inline-block;
+    
+    
+}
+.product-sub-name{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: K2D, kalameh;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    opacity: 0;
+    transform: translateY(20%);
+}
+.product-code-page .codes-list-div{
+    display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(30%, 1fr));
+  justify-items: center;
+  gap: 15px;
+  opacity: 0;
+  transform: translateY(20%);
+ 
+
+}
+.product-code-page .product-code-title-div{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    opacity: 0;
+    transform: translateY(20%);
+}
+
+.product-code-page .product-code-title-div .product-code-title{
+    font-size: 60px;
+    font-family: k2d,kalameh;
+    text-transform: uppercase;
+   
+    
+}
+.product-code-page .skip-div{
+    position: absolute;
+    right: 5%;
+    top: 90%;
+    background-color: #1d70b8;
+    color: white;
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.product-code-page .skip-div .skip-btn{
+    font-size: 20px;
+}
+.navbar .select-lang-div{
+    position: relative;
+    width: 10%;
+}
+.navbar .active-lang{
+    text-transform: uppercase;
+    padding: 5px;
+    cursor: pointer;
+}
+.navbar .lang-options-div{
+    background-color: #1d70b8;
+    
+    position: absolute;
+    border-radius: 5px;
+    left: 0;
+    /* transform: translateX(-50%); */
+    color: white;
+    opacity: 0;
+    display: none;
+}
+.navbar .lang-options-div.open{
+    opacity: 1;
+    display: block;
+}
+.navbar .lang-options-div .lang-option{
+    padding: 5px;
+    cursor: pointer;
+}
+@media screen and (max-width: 1600px) {
+    .product-code-page .codes-list-div{
+    grid-template-columns: repeat(auto-fill,minmax(45%, 1fr));
+    }
+}
+@media screen and (max-width: 1023px) {
+    .product-code-page .codes-list-div{
+    grid-template-columns: repeat(auto-fill,minmax(30%, 1fr));
+    }
+}
+@media screen and (max-width: 950px) {
+    .product-code-page .codes-list-div{
+    grid-template-columns: repeat(auto-fill,minmax(40%, 1fr));
+    }
+}
+@media screen and (max-width: 640px) {
+    .product-code-page .codes-list-div{
+    grid-template-columns: repeat(auto-fill,minmax(90%, 1fr));
+    }
+    .product-code-page .product-code-title-div {
+        font-size: 20px !important;
+        width: 100% !important; 
+        text-align: center;
+
+    }
+}
+@media screen and (max-width: 1023px) {
+    .codes-div{
+        height: 500px;
+        width: 300px;
+        flex-direction: column;
+        box-shadow: 0px 0px  15px rgba(0, 0, 0, 0.311);
+
+    }
+    .codes-div .application-image-mask{
+        width: 100%;
+        height: 50%;
+    }
+    .codes-div .code-content-div{
+        width: 100%;
+        height: 50%;
+    }
+    .product-code-page .product-code-title-div .product-code-title{
+        font-size: 30px;
+
+    }
+    .product-code-page .video-back-div{
+        position: static;
+        filter: blur(0);
+    }
+}
+@media screen and (max-width: 640px) {
+    .product-code-page .product-code-title-div .product-code-title{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+ 
+}
+
+

@@ -1,0 +1,141 @@
+.add-post-page{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.add-post-page .add-post-form-div{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+    width: 70%;
+    padding: 15px;
+    border-radius: 20px;
+}
+.add-post-page .back-to-admin-div{
+    width: 70%;
+    margin-bottom: 3%;
+    
+}
+.add-post-page .back-to-admin-div img{
+    height: 50px;
+}
+.add-post-page .add-post-form-div .add-post-form{
+    display: flex;
+    gap: 2%;
+}
+.add-post-page .add-post-form-div .add-post-form .add-image-div{
+    width: 30%;
+}
+.add-post-page .add-post-form-div .add-post-form .add-image-div .add-image-mask{
+    width: 100%;
+    overflow: hidden;
+    height: 350px;
+    border-radius: 15px 15px 0 0;
+}
+.add-post-page .add-post-form-div .add-post-form .add-image-div .add-image-mask img{
+    height: 100%;
+    width: 100%;
+}
+.add-post-page .add-post-form-div .add-post-form .add-content-div{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    direction: rtl;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    /* border: 1px solid #ccc; */
+    display: flex;
+    /* padding: 6px 12px; */
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 0 0 15px 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d70b8;
+    color: white;
+}
+.input-data{
+    width: 100%;
+    height: 40px;
+    /* margin: 0 20px; */
+    position: relative;
+}
+.add-post-page .input-data .input{
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* background-color: gray; */
+    padding: 10px;
+    border: 2px solid #1d70b8;
+    border-radius: 10px;
+    
+    font-size: 17px;
+    /* border-bottom: 2px solid rgba(0,0,0, 0.12); */
+}
+.add-post-page{
+    text-transform: capitalize;
+}
+.add-post-page .input-data label{
+    right: 10px;
+}
+.input-data.textarea{
+    height: 200px;
+}
+.add-post-page .textarea label{
+    top: 10px;
+    left: 10px;
+}
+.add-post-page .textarea label{
+    background: transparent;
+}
+.add-post-page .input-data input:focus ~ label,.add-post-page .textarea textarea:focus ~ label,.add-post-page .input-data input:valid ~ label,.add-post-page .textarea textarea:valid ~ label{
+    transform: translateY(-40px);
+}
+.add-post-page #languges{
+    background-color: #1d70b8;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    margin-right: 5%;
+}
+.add-post-page #languges option{
+    padding: 5px;
+}
+.add-post-page .btn{
+    border-radius: 10px;
+    /* margin-top: 5px; */
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .add-post-page .add-post-form-div .add-post-form{
+        flex-direction: column  ;
+        gap: 15px;
+    }
+    .add-post-page .add-post-form-div .add-post-form .add-image-div{
+
+        width: 100%;
+    }
+    .add-post-page .add-post-form-div .add-post-form .add-content-div{
+        width: 100%;
+        gap: 10px;
+    }
+    .add-post-page .add-post-form-div .add-post-form .add-image-div .add-image-mask{
+        height: 250px;
+    }
+    .custom-file-upload{
+        height: 40px;
+        font-size: 14px;
+    }
+    .add-lang-div label{
+        font-size: 14px;
+    }
+}

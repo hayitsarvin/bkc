@@ -1,0 +1,36 @@
+html {
+    font-size: calc(0.28rem + 0.75vw) ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: K2D, kalameh !important;
+}
+@font-face {
+    font-family: MonumentExtended;
+    src: url("MonumentExtended-Regular.otf") format("opentype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: MonumentExtended;
+    font-weight: bold;
+    src: url("MonumentExtended-Ultrabold.otf") format("opentype");
+    font-display: swap;
+}
+@font-face {
+    font-family: kalameh;
+    font-weight: 900;
+    src: url("KALAMEH_BLACK.TTF");
+    font-display: swap;
+}
+@font-face {
+    font-family: kalameh;
+    font-weight: bold;
+    src: url("KALAMEH_BOLD.TTF");
+    font-display: swap;
+}

@@ -1,0 +1,108 @@
+.loading-animation-div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 5;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}
+.loading-animation-div .loading-black-back{
+    height: 100%;
+    background-color: black;
+    /* width: 0; */
+    position: absolute;
+    left: 0;
+    /* animation: loadingAnimationWidth 10s  forwards ; */
+}
+.loading-animation-div .loading-logo-div {
+    color: white;
+    font-family: MonumentExtended;
+    text-align: center;
+}
+.loading-animation-div .loading-logo-div .loading-logo{
+    font-size: 80px;
+    color: white;
+    mix-blend-mode: difference;
+
+    /* animation: loadingAnimation 3s  infinite ; */
+
+}
+.loading-animation-div .loading-logo-div .loading-text{
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: white;
+    mix-blend-mode: difference;
+
+}
+.loading-animation-div .loading-percent-div .loading-percent{
+    font-size: 50px;
+}
+.loading-animation-div .loading-percent-div{
+    position: absolute;
+    left: 10%;
+    top: 80%;
+}
+.loading-process-div{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+.loading-process-div .loading-process{
+    font-size: 200px;
+    /* color: #1d70b8; */
+    color: white;
+    mix-blend-mode: difference;
+    
+}
+
+@media screen and (max-width: 640px) {
+
+    .loading-animation-div .loading-logo-div .loading-logo{
+
+        font-size: 40px;
+    }
+    .loading-process-div .loading-process{
+        font-size: 100px;
+    }
+    .loading-animation-div .loading-logo-div .loading-text{
+        font-size: 15px;
+    }
+    .loading-process-div{
+        
+        bottom: 15%;
+    }
+}
+@keyframes loadingAnimation {
+    0%{
+        opacity: 0.1;
+    }
+    50%{
+        opacity: 1;
+
+    }
+    100%{
+        opacity: 0.1;
+
+    }
+    
+}
+@keyframes loadingAnimationWidth {
+    0%{
+        width: 0;
+    }
+  
+    100%{
+       width: 100%;
+
+    }
+    
+}
+
+
+
+

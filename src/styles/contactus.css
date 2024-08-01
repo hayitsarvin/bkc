@@ -1,0 +1,203 @@
+.contact-us-div{
+    height: 100vh;
+    background-image: url("../../public/images/contact-back.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    
+}
+.contact-us-div .google-map-div .google-map{
+  width: 100%;
+}
+.contact-us-div .contact-us-title{
+    font-family: MonumentExtended;
+    font-size: 36px;
+    text-transform: capitalize;
+    padding-left: 3%;
+}
+.contact-us-div .contact-us-content-flex{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    gap: 10%;
+    /* margin-top: 10%; */
+
+}
+.contact-us-div .contact-form-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: max-content;
+}
+.contact-us-div .contact-form-div .contact-form{
+    height: 400px;
+    width: 800px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+
+ .dir-rtl{
+  direction: rtl !important;
+
+}
+.input{
+  font-family: K2D, kalameh;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+
+  outline: none;
+
+}
+
+.container{
+  max-width: 800px;
+  background: #fff;
+  width: 800px;
+  padding: 25px 40px 10px 40px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  border-radius: 15px;
+}
+.container .text{
+  text-align: center;
+  font-size: 41px;
+  font-weight: 600;
+  font-family: K2D, kalameh;
+  background: -webkit-linear-gradient(right, #56d8e4, #1d70b8, #56d8e4, #1d70b8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container form .form-row{
+  display: flex;
+  margin: 32px 0;
+}
+.container form .form-row.btn{
+  text-align: center;
+  justify-content: center;
+}
+form .form-row .input-data{
+  width: 100%;
+  height: 40px;
+  margin: 0 20px;
+  position: relative;
+}
+form .form-row .textarea{
+  height: 70px;
+}
+.input-data input,
+.textarea textarea{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid rgba(0,0,0, 0.12);
+}
+.input-data input:focus ~ label, .textarea textarea:focus ~ label,
+.input-data input:valid ~ label, .textarea textarea:valid ~ label{
+  transform: translateY(-20px);
+  font-size: 14px;
+  color: #3498db;
+}
+.textarea textarea{
+  resize: none;
+  padding-top: 10px;
+}
+.input-data label{
+  position: absolute;
+  pointer-events: none;
+  bottom: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.textarea label{
+  width: 100%;
+  bottom: 40px;
+  background: #fff;
+}
+.input-data .underline{
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+}
+.input-data .underline:before{
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: #1d70b8;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before,
+.textarea textarea:focus ~ .underline:before,
+.textarea textarea:valid ~ .underline:before{
+  transform: scale(1);
+}
+.submit-btn .input-data{
+  overflow: hidden;
+  height: 45px!important;
+  width: 25%!important;
+}
+
+.submit-btn  input{
+  background: #1d70b8;
+  border: none;
+  color: #fff;
+  font-family: K2D, kalameh;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 100px;
+  width: 100%;
+
+  
+}
+@media (max-width: 1300px) {
+  .container{
+    padding-top: 0;
+  }
+
+}
+@media (max-width: 700px) {
+  .container .text{
+    font-size: 30px;
+  }
+  .container form{
+    padding: 10px 0 0 0;
+  }
+  .container form .form-row{
+    display: block;
+  }
+  form .form-row .input-data{
+    margin: 35px 0!important;
+  }
+  .submit-btn .input-data{
+    width: 40%!important;
+  }
+  .contact-us-div{
+    height: 100vh;
+    background-image: none;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: white;
+  }
+  .contact-us-div .contact-us-content-flex{
+    justify-content: center;
+  }
+  .contact-us-div .contact-us-title{
+    text-align: center;
+    padding-left: 0px;
+  }
+}

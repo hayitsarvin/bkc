@@ -1,0 +1,171 @@
+.tds-page{
+    margin-top: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.tds-page .product-description-title , .tds-page .characteristics-and-advantages-title , .tds-page .uses-title{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.tds-page ul{
+    padding-left: 3%;
+    font-size: 19px;
+}
+.tds-page .product-description{
+    width: 60%;
+    font-size: 19px;
+    padding-left: 2%;
+}
+.tds-page .product-description-div{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.tds-page .characteristics-and-advantages-div{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.tds-page .uses-div{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.tds-page .table-div tr:nth-of-type(even)  td.tg-hmp3{
+    background-color: black;
+    color: white;
+    
+}
+.tds-page .table-div tr:nth-of-type(odd)  td.tg-hmp3{
+    background-color: white;
+    color: black;
+    
+}
+.tds-page .table-div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10%;
+}
+.table-back-image-mask{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 1200px;
+    overflow: hidden;
+}
+.table-back-image-mask img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.tds-page .content-div{
+    display: flex;
+    justify-content: space-between;
+}
+.tds-page .farsi-content-rtl-div{
+    direction: rtl;
+}
+.tds-page .farsi-content-rtl-div ul{
+    padding-left: 0;
+    padding-right: 3%;
+}
+.tds-page .content-div.farsi-content-div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.tds-page .barrel-image-mask{
+    width: 500px;
+    transform: rotate(-25deg);
+    animation: topDown 5s  infinite;
+}
+.tds-page .barrel-image-mask img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.tds-page .tds-title{
+    background-color: #1d70b8;
+    width: max-content;
+    padding-left: 10%;
+    margin-left: -10%;
+    padding-right: 2%;
+    color: white;
+}
+.download-btn-div{
+    width: max-content;
+}
+.download-btn-div a{
+    color: white;
+    text-decoration: none;
+}
+.tg  {border:none;border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;width: 90%;}
+.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:0px;color:#444;
+  font-family:K2D, kalameh;font-size:16px;overflow:hidden;padding:10px 15px;word-break:normal;}
+.tg th{background-color:#1d70b8;border-color:#9ABAD9;border-style:solid;border-width:0px;color:#fff;
+  font-family:K2D, kalameh;font-size:20px;font-weight:normal;overflow:hidden;padding:10px 15px;word-break:normal;}
+.tg .tg-hmp3{background-color:#D2E4FC;text-align:left;vertical-align:top}
+.tg .tg-baqh{text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+
+@keyframes topDown {
+    0%{
+        transform: translateY(-20%) rotate(-25deg);
+    }
+    50%{
+        transform: translateY(0%) rotate(-25deg);
+    }
+    100%{
+        transform: translateY(-20%) rotate(-25deg);
+    }
+}
+@media screen and (max-width: 640px) {
+    
+    .tds-page .barrel-image-mask{
+        display: none;
+    }
+    .tds-page {
+        margin-top: 25%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+.tds-page .product-description{
+    width: 90%;
+    font-size: 17px;
+}
+.tds-page .product-description-title, .tds-page .characteristics-and-advantages-title, .tds-page .uses-title{
+    font-size: 23px;
+}
+.tds-page ul{
+    font-size: 17px;
+}
+.tg th{
+    font-size: 18px;
+    padding: 10px 12px;
+}
+
+
+    .tds-page .table-div tr:nth-of-type(odd) td.tg-hmp3 , .tds-page .table-div tr:nth-of-type(even) td.tg-hmp3{
+        font-size: 14px;
+    }
+    .tds-page.tds-ru .table-div tr:nth-of-type(odd) td.tg-hmp3 , .tds-page.tds-ru .table-div tr:nth-of-type(even) td.tg-hmp3{
+        font-size: 12px;
+    }
+    .tds-page.tds-ru .tg th{
+        font-size: 16px;
+
+    }
+ 
+ .tds-page .tds-title .title{
+    font-size: 25px;
+ }
+
+ .tds-page .farsi-content-rtl-div .tds-title{
+    margin-right: -6%;
+    padding-right: 8%;
+ }
+    
+   
+}
