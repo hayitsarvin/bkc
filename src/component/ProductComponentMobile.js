@@ -22,7 +22,7 @@ const ProductComponentMobile = ({flex="" , name , img, link}) => {
                 </div> */}
                 <div className='product-mobile-btn-div'>
                     <div className='btn '>
-                        <Link to={link} >{lang.languge == "fa" ?  "دیدن محصول" : (lang.languge == "en" ?  "see product" : "посмотреть продукт")}</Link>
+                        <Link to={link} >{lang.languge == "fa" ?  "دیدن محصول" : (lang.languge == "en" ?  "see product" : (lang.languge == "ru" ? "посмотреть продукт" : "انظر المنتج"))}</Link>
                     </div>
                 </div>
             </div>

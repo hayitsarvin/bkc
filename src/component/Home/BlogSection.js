@@ -47,7 +47,7 @@ const BlogSection = () => {
                 
                 <div className='blog-section-div'>
                 <div className='blog-section-title-div'>
-                    <h2 className='blog-section-title'>our news</h2>
+                    <h2 className='blog-section-title'>{lang.languge == "fa" ?  "بلاگ" : (lang.languge == "en" ?  "our blog" : (lang.languge == "ru" ? "наш блог" : "مدونتنا"))}</h2>
                 </div>
                     <div className='blog-active-post-div'>
                     {
