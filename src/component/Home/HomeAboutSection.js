@@ -95,7 +95,7 @@ useEffect(() => {
 
         <div className='home-about-section'>
             <div className='title-div'>
-                <h2 className='title'>{lang.languge == "fa" ? "ما بنیان کالا شیمی هستیم ": (lang.languge == "en" ? "we are bonyan kala chemie" : "мы Боньян Кала Хими")}</h2>
+                <h2 className='title'>{lang.languge == "fa" ? "ما بنیان کالا شیمی هستیم ": (lang.languge == "en" ? "we are bonyan kala chemie" : ( lang.languge == "ar" ?  "نحن بنيان كالا كيمي" : "мы Боньян Кала Хими"))}</h2>
             </div>
             <div className='home-about-section-content'>
                 <div className='image-side-div'>
