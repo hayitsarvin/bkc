@@ -47,7 +47,7 @@ const Home = () => {
         </div>
         <div className='danesh-bonyan-footer'>
           <p className='modir-header'>{lang.languge == "fa" ? ("مدیرعامل") : ( lang.languge == "en" ? ("ceo") : (lang.languge == "ru" ? ("Генеральный директор") : ("المدير التنفيذي")))}</p>
-          <p className='modir-footer'>{lang.languge == "fa" ? ("محسن مبارکی") : ( lang.languge == "en" ? ("mohsen mobaraki") : (lang.languge == "ru" ? ("mohsen mobaraki") : ("محسن مبارکی")))}</p>
+          <p className='modir-footer'>{lang.languge == "fa" ? ("محسن مبارکی") : ( lang.languge == "en" ? ("Mohsen Mobaraki") : (lang.languge == "ru" ? ("Mohsen Mobaraki") : ("محسن مبارکی")))}</p>
         </div>
       </div>
       <HomeAboutSection />

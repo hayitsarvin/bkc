@@ -65,7 +65,7 @@ useEffect(() => {
       return (
         <div className='home-about-section'>
             <div className='title-div'>
-                <h2 className='title'>{lang.languge == "fa" ? "ما بنیان کالا شیمی هستیم ": (lang.languge == "en" ? "we are bonyan kala chemie" : lang.languge == "ru" ? "мы Боньян Кала Хими" : "نحن بنيان كالا كيمي")}</h2>
+                <h2 className='title'>{lang.languge == "fa" ? "ما بنیان کالا شیمی هستیم ": (lang.languge == "en" ? "we are bonyan kala chemie" :( lang.languge == "ru" ? "мы Боньян Кала Хими" : "نحن بنيان كالا كيمي"))}</h2>
             </div>
             <div className='home-about-section-content'>
 
