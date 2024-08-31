@@ -213,7 +213,7 @@ const Root = () => {
             name:"راتنجات البولیستر المشبعة"
           },
           AlkydResins:{
-            name:"رزین آلکید"
+            name:"راتنجات الألكيد"
           },
           SaturatedPolyesterResins:{
             name:"راتنجات البولیستر غیر المشبعة "

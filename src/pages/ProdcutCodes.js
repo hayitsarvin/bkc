@@ -32,7 +32,7 @@ const ProdcutCodes = () => {
   } ,[])
   const AlkydResins = productData.AlkydResins.map(data => { 
     return (<>
-    <h2 className='product-sub-name'>{lang.languge == "fa" ? data.nameFa : (lang.languge == "en" ? data.name : data.nameRu)}</h2>
+    <h2 className='product-sub-name'>{lang.languge == "fa" ? data.nameFa : (lang.languge == "en" ? data.name : ( lang.languge == "ru" ? data.nameRu : data.namear))}</h2>
 
     <div className='codes-list-div'>
       {data.applications.map(d => {

@@ -33,7 +33,7 @@ const BlogPost = ({state , data , lan}) => {
             </div>
             </div>
             <div className='post-btn-div'>
-            <Link to={"/blog-post/" +data.id} className='btn'>{lan == "fa" ? "ادامه مطلب" : (lan == "en" ? "read more" : "читать далее")}</Link>
+            <Link to={"/blog-post/" +data.id} className='btn'>{lan == "fa" ? "ادامه مطلب" : (lan == "en" ? "read more" :(lan == "ru" ? "читать далее" : "اقرأ المزيد"))}</Link>
         </div>
             <div className='post-bottom-icon'>
                 <img alt='quote icon' src='./images/quote-bottom.png' />
