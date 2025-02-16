@@ -15,11 +15,11 @@ const Footer = () => {
             </div>
             <div className='footer-info-div'>
                     <div className='footer-info-address'>
-                        <p><img alt='location icon' src='/images/location.png' className='footer-icon'/>{languge == "fa" ? ("ایران - تهران میدان آرژانتین خیابان بخارست کوچه سیزدهم پلاک 4 واحد 7" ): (languge == "en" ? ("Unit 7, No 4, 13th St, Ahmad Qasir (Bokharest) Ave,Tehran, 1513754915 IRAN") :(languge == "ar" ? " ایران، طهران، دّو ، شارع بخارست، زقاق ،13 رقم ،4 الوحدة 7": ("Иран, 1513754915 Тегеран, Проспект Ахмада Казира (Бохареста), 13-я ул., 4, стр.7")))}</p>
+                        <p><img alt='location icon' src='/images/location.png' className='footer-icon'/>{languge == "fa" ? ("ایران - تهران خیابان نلسون ماندلا - خیابان عاطفی غربی پلاک 109" ): (languge == "en" ? ("Nelson Mandela Street - Western Atfi Street, Number 109,Tehran, 1513754915 IRAN") :(languge == "ar" ? " ایران، طهران، شارع نيلسون مانديلا - شارع عاطفي الغربي، رقم 109": ("Иран, 1513754915 Тегеран, Улица Нельсона Манделы - Западная улица Атфи, дом 109")))}</p>
                     </div>
                     <div className='footer-info-phone'>
-                        <p><img alt='call icon' src='/images/call.png' className='footer-icon' />(+98 - 21) 88 55 55 57</p>
-                        <p><img alt='fax icon' src='/images/fax.png' className='footer-icon' />(+98 - 21) 88 71 68 08</p>
+                        <p><img alt='call icon' src='/images/call.png' className='footer-icon' />(+98 - 21) 00 00 08</p>
+                        <p><img alt='fax icon' src='/images/fax.png' className='footer-icon' />(+98 - 21)  00 00 08</p>
                     </div>
                     <div className='footer-info-email'>
                         <p><img alt='mail icon' src='/images/mail.png' className='footer-icon' />info@bonyankala.com</p>
