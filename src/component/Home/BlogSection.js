@@ -27,7 +27,9 @@ const BlogSection = () => {
         if(activePost < 2){
             setActivePost(activePost + 1)
         }else{
+
             setActivePost(0)
+            
         }
     }
     const pickClass = (id) => {
