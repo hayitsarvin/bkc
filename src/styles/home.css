@@ -298,7 +298,7 @@
 }
 .home-about-section .title-div .title{
     font-size: 50px;
-    font-family: MonumentExtended;
+    /* font-family: MonumentExtended; */
 }
 .home-about-section .home-about-section-content{
     display: flex;
@@ -785,6 +785,9 @@ border-top: 41.25px solid transparent;
         
         margin-top: 35%;
         
+    }
+    .home-about-section .title-div .title{
+        font-family: K2D, kalameh !important;
     }
     .hero .hero-flex{
         justify-content: center;
