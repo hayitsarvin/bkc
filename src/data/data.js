@@ -3120,7 +3120,7 @@ export const tds = {
                  fa:{
                   product:"رزین آلکید متوسط روغن",
                   name:"BAM207",
-                  pdf:"BAM203-Fa.pdf",
+                  pdf:"BAM207-Fa.pdf",
                   Description:"BAM 207 WS-55 رزین آلکید متوسط روغن بر پایه اسید چرب روغن سویا با سختی، خشک­‌شوندگی سطحی و عمقی و براقیت و حفظ براقیت عالی است.",
                   Characteristics:[
                     "سختی عالی",
@@ -3187,7 +3187,7 @@ export const tds = {
                  ar:{
                     product:": راتنجات الکید، متوسط الزیت",
                     name:"BAM207",
-                    pdf:"BAM203-En.pdf",
+                    pdf:"BAM207-En.pdf",
                     Description:"BAM 207 WS-55 راتنجات الکید، متوسط الزیت، المنتَج علی أساس الأحماض الدهنية زيت فول الصويا، ممتاز بصلابته وجفافه السطحي والعميق، و اللمعان..",
                     Characteristics:[
                         "اللمعان الممتاز و الحفاظ علی اللمعان",
@@ -3256,7 +3256,7 @@ export const tds = {
                  en:{
                   product:"Medium oil Alkyd Resin",
                   name:"BAM207",
-                  pdf:"BAM203-En.pdf",
+                  pdf:"BAM207-En.pdf",
                   Description:"BAM 207 WS-55 is a Medium oil alkyd resin based on soybean oil fatty acid which offers excellent hardness, surface and through drying and gloss and gloss retention.",
                   Characteristics:[
                     "Excellent hardness",
@@ -3325,7 +3325,7 @@ export const tds = {
                  ru:{
                   product:"Aлкидная смола средней жирности",
                   name:"BAM207",
-                  pdf:"BAM203-RU.pdf",
+                  pdf:"BAM207-En.pdf",
                   Description:"BAM 207 WS-55 алкидная смола средней жирности на основе жирных кислот соевого масла, обладающая отличной твердостью, очень хорошим поверхностным и глубоким высыханием, и блеском и устойчивостью блеска.",
                   Characteristics:[
                    "Отличная твердость",
@@ -16036,7 +16036,7 @@ export const tds = {
                                              en:{
                                               product:"Maleic Resin",
                                               name:"BMA401",
-                                              pdf:"BMA-401-en.pdf",
+                                              pdf:"BMA401-En.pdf",
                                               Description:"BMA 401 T-70 is a Maleic Resin which offers excellent gloss and gloss retention and hardness and very good surface and deep drying properties",
                                               Characteristics:[
                                                 "Excellent gloss and gloss retention",
