@@ -3120,7 +3120,7 @@ export const tds = {
                  fa:{
                   product:"رزین آلکید متوسط روغن",
                   name:"BAM207",
-                  pdf:"BAM207-Fa.pdf",
+                  pdf:"BAM_207.pdf",
                   Description:"BAM 207 WS-55 رزین آلکید متوسط روغن بر پایه اسید چرب روغن سویا با سختی، خشک­‌شوندگی سطحی و عمقی و براقیت و حفظ براقیت عالی است.",
                   Characteristics:[
                     "سختی عالی",
