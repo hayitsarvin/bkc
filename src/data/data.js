@@ -16802,20 +16802,20 @@ export const tds = {
                                                     {
                                                         propertis:"شکل ظاهری",
                                                         unit:"-",
-                                                        value:"مایع، بنفش فام",
+                                                        value:"مایع شفاف، زرد فام",
                                                         testMethod:"-"
                                                     },
                                                     {
                                                         propertis:"نوع فلز",
                                                         unit:"-",
-                                                        value:"کبالت",
+                                                        value:"سرب",
                                                         testMethod:"-"
                                                     },
                                                     {
                                                         propertis:"درصد فلز",
                                                         unit:"wt %",
-                                                        value:"10±0.2",
-                                                        testMethod:"ASTM D2373"
+                                                        value:"32±0.5",
+                                                        testMethod:"ASTM D2374"
                                                     },
                                                    
                                                     {
@@ -16827,7 +16827,7 @@ export const tds = {
                                                     {
                                                         propertis:"درصد جامد",
                                                         unit:"% wt",
-                                                        value:"50-54",
+                                                        value:"69-75",
                                                         testMethod:"ASTM D1259"
                                                     },
                                                     {
