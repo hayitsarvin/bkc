@@ -16227,7 +16227,7 @@ export const tds = {
                                                     propertis:"رنگ",
                                                     unit:"Gardner",
                                                     value:"-",
-                                                    testMethod:"ASTM D1259"
+                                                    testMethod:"ASTM D1544"
                                                 }
                                                 ,
                                                 {
@@ -16309,7 +16309,7 @@ export const tds = {
                                                      propertis:"Viscosity – Krebs (at 20°C)",
                                                      unit:"mPa.s (cP)",
                                                      value:"400-600",
-                                                     testMethod:"ASTM D562"
+                                                     testMethod:"ASTM D1544"
                                                  }
                                                  ,
                                                  {
