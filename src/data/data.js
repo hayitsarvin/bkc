@@ -16499,20 +16499,20 @@ export const tds = {
                                                     {
                                                         propertis:"شکل ظاهری",
                                                         unit:"-",
-                                                        value:"مایع، بنفش فام",
+                                                        value:"مایع شفاف، زرد فام",
                                                         testMethod:"-"
                                                     },
                                                     {
                                                         propertis:"نوع فلز",
                                                         unit:"-",
-                                                        value:"کبالت",
+                                                        value:"کلسیم",
                                                         testMethod:"-"
                                                     },
                                                     {
                                                         propertis:"درصد فلز",
                                                         unit:"wt %",
-                                                        value:"10±0.2",
-                                                        testMethod:"ASTM D2373"
+                                                        value:"5±0/2",
+                                                        testMethod:"ASTM D2613"
                                                     },
                                                    
                                                     {
@@ -16524,27 +16524,27 @@ export const tds = {
                                                     {
                                                         propertis:"درصد جامد",
                                                         unit:"% wt",
-                                                        value:"50-54",
+                                                        value:"43-47",
                                                         testMethod:"ASTM D1259"
                                                     },
                                                     {
                                                         propertis:"رنگ",
                                                         unit:"Gardner",
-                                                        value:"-",
-                                                        testMethod:"ASTM D1259"
+                                                        value:"<6",
+                                                        testMethod:"ASTM D1544"
                                                     }
                                                     ,
                                                     {
                                                         propertis:"گرانروی – کربس  (℃20)",
                                                         unit:"mPa.s (cP)",
-                                                        value:"400-600",
+                                                        value:"300-1200",
                                                         testMethod:"ASTM D562"
                                                     }
                                                     ,
                                                     {
                                                         propertis:"چگالی  (℃23)",
                                                         unit:"g/cm3",
-                                                        value:"0.9838",
+                                                        value:"0.9252",
                                                         testMethod:"ASTM D1475"
                                                     }
         
@@ -16575,20 +16575,20 @@ export const tds = {
                                                     {
                                                         propertis:"Appearance",
                                                         unit:"-",
-                                                        value:"Violet Liquid",
+                                                        value:"Yellow,clear liquid",
                                                         testMethod:"-"
                                                     },
                                                     {
                                                         propertis:"Metal type",
                                                         unit:"-",
-                                                        value:"Cobalt",
+                                                        value:"Calcium",
                                                         testMethod:"-"
                                                     },
                                                     {
                                                         propertis:"Metal content",
                                                         unit:"wt %",
-                                                        value:"10±0.2",
-                                                        testMethod:"ASTM D2373"
+                                                        value:"5±0.2",
+                                                        testMethod:"ASTM D2613"
                                                     },
                                                    
                                                     {
@@ -16600,27 +16600,27 @@ export const tds = {
                                                     {
                                                         propertis:"Solid content",
                                                         unit:"% wt",
-                                                        value:"50-54",
+                                                        value:"43-47",
                                                         testMethod:"ASTM D1259"
                                                     },
                                                     {
                                                         propertis:"Color",
                                                         unit:"Gardner",
-                                                        value:"-",
-                                                        testMethod:"ASTM D1259"
+                                                        value:"Max 6",
+                                                        testMethod:"ASTM D1544"
                                                     }
                                                     ,
                                                     {
                                                         propertis:"Viscosity – Krebs (at 20°C)",
                                                         unit:"mPa.s (cP)",
-                                                        value:"400-600",
+                                                        value:"300-1200",
                                                         testMethod:"ASTM D562"
                                                     }
                                                     ,
                                                     {
                                                         propertis:"Density (at 23°C)",
                                                         unit:"g/cm3",
-                                                        value:"0.9838",
+                                                        value:"0.9252",
                                                         testMethod:"ASTM D1475"
                                                     }
         
