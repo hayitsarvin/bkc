@@ -15921,7 +15921,7 @@ export const tds = {
                                                 },
                                                 {
                                                     propertis:"گرانروی (℃25)",
-                                                    unit:"mPa.s (cP)",
+                                                    unit:"St",
                                                     value:"40-60",
                                                     testMethod:"ISO 2555"
                                                 },
@@ -15993,7 +15993,7 @@ export const tds = {
                                                   },
                                                   {
                                                       propertis:"Viscosity (at 25°C)",
-                                                      unit:"mPa.s (cP)",
+                                                      unit:"St",
                                                       value:"40-60",
                                                       testMethod:"ISO 2555"
                                                   },
@@ -16065,7 +16065,7 @@ export const tds = {
                                                 },
                                                 {
                                                     propertis:"Viscosity (at 25°C)",
-                                                    unit:"mPa.s (cP)",
+                                                    unit:"St",
                                                     value:"40-60",
                                                     testMethod:"ISO 2555"
                                                 },
@@ -16135,7 +16135,7 @@ export const tds = {
                                                 },
                                                 {
                                                     propertis:"Вязкость (при 25°C)",
-                                                    unit:"mPa.s (cP)",
+                                                    unit:"St",
                                                     value:"40-60",
                                                     testMethod:"ISO 2555"
                                                 },
