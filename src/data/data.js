@@ -133,6 +133,10 @@ Driers: {
         {
             image: "/images/loleh.png",
             codes:["BDZr18" ]
+        },
+        {
+            image: "/images/loleh.png",
+            codes:["MG" ]
         }
     ]
     
