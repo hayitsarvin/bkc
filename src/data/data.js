@@ -2281,6 +2281,7 @@ export const tds = {
              }
       
           },
+    
           BAS304 :{
               fa:{
                product:"رزین آلکید کوتاه روغن",
@@ -2353,6 +2354,286 @@ export const tds = {
               ar:{
                 product:"راتنجات الکید، قصیر الزیت",
                 name:"BAS304",
+                pdf:"BAS-304-Eng.pdf",
+                Description:"BAS 304 X-60 راتنجات الکید، قصیر الزیت، المنتَج علی أساس الأحماض الدهنية زيت جوز الهند، ممتاز بصلابته وجفافه السطحي والعميق، والالتصاق والمرونة والقدرة على تشتيت الصباغ..",
+                Characteristics:[
+                    "اللمعان الممتاز و الحفاظ علی اللمعان",
+                    "الصلابة الممتازة",
+                    "الجفاف علی السطح و العمق",
+                    "الإلتصاق والمرونة",
+                    "الجفاف السریع",
+                    "القدرة على تشتيت الصباغ",
+                    "التفاعل السریع مع المذیب"
+                ],
+                Uses:[
+                     "الدهانات و الطلاءات الصناعیة",
+                     "طلاء المطروق",
+                     "طلاء فوري على أساس النيتروسليلوز",
+                     "الصقل و التزجیج الفرني",
+                     "الغطاء الخشبي"
+                ],
+                Table:[
+                 {
+                     propertis:"oil percentage (approximate)",
+                     unit:"% wt",
+                     value:"23",
+                     testMethod:"Computing"
+                 },
+                 {
+                     propertis:"color",
+                     unit:"Gardner",
+                     value:"1>",
+                     testMethod:"ASTM D1544"
+                 },
+                 {
+                     propertis:"Viscosity (25℃)",
+                     unit:"St",
+                     value:"80-90",
+                     testMethod:"ASTM D1545"
+                 },
+                 {
+                     propertis:"acid number",
+                     unit:"mg KOH/g",
+                     value:"10>",
+                     testMethod:"ASTM D1639"
+                 },
+                 {
+                     propertis:"percent solids",
+                     unit:"% wt",
+                     value:"60±1",
+                     testMethod:"ASTM D1259"
+                 },
+                 {
+                     propertis:"Density (23℃)",
+                     unit:"g/cm³",
+                     value:"1.0591",
+                     testMethod:"ASTM D1475"
+                 },
+                 {
+                     propertis:"Flashing point (open cup)",
+                     unit:"℃",
+                     value:"24",
+                     testMethod:"ASTM D92"
+                 }
+                 
+             ],
+                safety:"The usual protective measures employed during the handling of Alkyd Resins should be observed. Further product safety information can be obtained from our Material Safety Data Sheet which is available on request.",
+                Packaging:"200 kg (net) in steel drums.",
+                Storage:"Store in a cool place below 25 °C and away from moisture and direct sunlight.",
+                Disclaimer:"The information and in particular the recommendations relating to the application and use of Bonyan Kala Chemie products are given in good faith based on our current knowledge and expertise of the products when properly stored, handled and used under normal conditions within their shelf life. In practice, the differences in materials, chemistries and actual site conditions are such that no warranty in respect of merchantability or of fitness for a particular purpose, nor any liability arising out of any legal relationship whatsoever, can be inferred either from this information, or from any recommendations, or from any other advice offered. The proprietary rights of third parties must be observed. All orders are accepted subject to our current terms of sale and delivery. Users should always refer to the most recent issue of the Technical Data Sheet for the product concerned, copies of which will be supplied on request or can be accessed from www.bonyankala.com."
+               },
+              en:{
+               product:"Alkyd Resins",
+               name:"BAS304",
+               pdf:"BAS-304-Eng.pdf",
+               Description:"BAS 304 X-60 is a short oil alkyd resin based on coconut oil fatty acid which offers very good hardness, gloss and gloss retention, adhesion and flexibility.",
+               Characteristics:[
+                  "Excellent pigment wetting and dispersing",
+                  "Very good hardness",
+                  "Very good gloss and gloss retention",
+                  "Very good adhesion and flexibility",
+                  "Good solvent tolerance"
+               ],
+               Uses:[
+                    "Industrial paints and coatings",
+                    "Lacquers, stoving enamels and paints",
+                    "Nitro cellulose enamels and paints",
+                    "Wood coatings",
+                    "Amino modified lacquers, varnishes and clear coats"
+               ],
+               Table:[
+                {
+                    propertis:"oil percentage (approximate)",
+                    unit:"% wt",
+                    value:"23",
+                    testMethod:"Computing"
+                },
+                {
+                    propertis:"color",
+                    unit:"Gardner",
+                    value:"1>",
+                    testMethod:"ASTM D1544"
+                },
+                {
+                    propertis:"Viscosity (25℃)",
+                    unit:"St",
+                    value:"80-90",
+                    testMethod:"ASTM D1545"
+                },
+                {
+                    propertis:"acid number",
+                    unit:"mg KOH/g",
+                    value:"10>",
+                    testMethod:"ASTM D1639"
+                },
+                {
+                    propertis:"percent solids",
+                    unit:"% wt",
+                    value:"60±1",
+                    testMethod:"ASTM D1259"
+                },
+                {
+                    propertis:"Density (23℃)",
+                    unit:"g/cm³",
+                    value:"1.0591",
+                    testMethod:"ASTM D1475"
+                },
+                {
+                    propertis:"Flashing point (open cup)",
+                    unit:"℃",
+                    value:"24",
+                    testMethod:"ASTM D92"
+                }
+                
+            ],
+               safety:"The usual protective measures employed during the handling of Alkyd Resins should be observed. Further product safety information can be obtained from our Material Safety Data Sheet which is available on request.",
+               Packaging:"200 kg (net) in steel drums.",
+               Storage:"Store in a cool place below 25 °C and away from moisture and direct sunlight.",
+               Disclaimer:"The information and in particular the recommendations relating to the application and use of Bonyan Kala Chemie products are given in good faith based on our current knowledge and expertise of the products when properly stored, handled and used under normal conditions within their shelf life. In practice, the differences in materials, chemistries and actual site conditions are such that no warranty in respect of merchantability or of fitness for a particular purpose, nor any liability arising out of any legal relationship whatsoever, can be inferred either from this information, or from any recommendations, or from any other advice offered. The proprietary rights of third parties must be observed. All orders are accepted subject to our current terms of sale and delivery. Users should always refer to the most recent issue of the Technical Data Sheet for the product concerned, copies of which will be supplied on request or can be accessed from www.bonyankala.com."
+              },
+              ru:{
+               product:"Тощая алкидная смола",
+               name:"BAS304",
+               pdf:"BAS-304-RU.pdf",
+               Description:"BAS 304 X-60 – тощая алкидная смола на основе жирных кислот кокосового масла, обладающая очень хорошей твердостью, блеском и устойчивостью блеска, адгезией и пластичностью.",
+               Characteristics:[
+                 "Отличное увлажнение пигмента и распыление",
+                 "Очень хорошая твердость",
+                 "Очень хороший блеск и устойчивость блеска",
+                 "Очень хорошая адгезия и пластичность",
+                 "Хорошая устойчивость к растворителям"
+               ],
+               Uses:[
+                   "Промышленные краски и покрытия",
+                   "Лаки, горячие эмали и краски",
+                   "Нитроцеллюлозные эмали и краски",
+                   "Покрытия для дерева",
+                   "Аминомодифицированные лаки, политура и непигментированные покрытия"
+               ],
+               Table:[
+                {
+                    propertis:"Содержание масла (прибл.)",
+                    unit:"% веса",
+                    value:"23",
+                    testMethod:"Расчеты"
+                },
+                {
+                    propertis:"Цвет",
+                    unit:"Гарднер",
+                    value:"Max 1",
+                    testMethod:"ASTM D1544"
+                },
+                {
+                    propertis:"Вязкость (при 25°C)",
+                    unit:"Ст",
+                    value:"80-90",
+                    testMethod:"ASTM D1545"
+                },
+                {
+                    propertis:"Кислотное число",
+                    unit:"мг KOH/г",
+                    value:"10>",
+                    testMethod:"ASTM D1639"
+                },
+                {
+                    propertis:"Сухой остаток",
+                    unit:"% веса",
+                    value:"60±1",
+                    testMethod:"ASTM D1259"
+                },
+                {
+                    propertis:"Плотность (при 23°C)",
+                    unit:"г/см³",
+                    value:"1.0591",
+                    testMethod:"ASTM D1475"
+                },
+                {
+                    propertis:"Температура вспышки (в открытом тигле)",
+                    unit:"℃",
+                    value:"24",
+                    testMethod:"ASTM D92"
+                }
+            ],
+               safety:"Следует соблюдать стандартные меры безопасности транспортировки алкидных смол. Более подробную информацию по безопасности продукта можно узнать из паспорта безопасности материала, который предоставляется по запросу.",
+               Packaging:"200 кг (нетто) в металлических бочках.",
+               Storage:"Хранить в прохладном месте при температуре ниже 25 °C и вдали от влаги и прямых солнечных лучей.",
+               Disclaimer:"Информация и в особенности рекомендации по применению и использованию продукции Bonyan Kala Chemie предоставлены добросоветстно и с честными намерениями на основании имеющихся на данный момент квалификации и знаний о продуктах при условии их надлежащего хранения, транспортировки и использования в нормальных условиях в течение срока годности. На практике различия материалов, химических составов и фактических местных условия таковы, что при любых правоотношениях из данной информации или рекомендаций или какой-либо консультации не проистекает никаких гарантий или обязательств относительно товарной пригодности или соответствия определенным целям. Необходимо соблюдать права собственности, авторские и патентные права третьих лиц. Все заказы принимаются в соответствии с нашими текущими сроками и условиями поставки. Пользователям следует всегда сверяться с последней версией Спецификаций продукта, которые могут быть предоставлены по запросу и доступны на сайте www.bonyankala.com."
+              }
+       
+           },
+
+     MG :{
+              fa:{
+               product:"رزین آلکید کوتاه روغن",
+               name:"MG",
+               pdf:"BAS-304-Farsi.pdf",
+               Description:"BAS 304 X-60 رزین آلکید کوتاه روغن بر پایه اسید چرب روغن نارگیل با سختی، براقیت و حفظ براقیت، چسبندگی و انعطاف‌­پذیری بسیار خوب است.",
+               Characteristics:[
+                 "تر­کنندگی و قابلیت پراکنش رنگدانه عالی",
+                 "سختی بسیار خوب",
+                 "براقیت و حفظ براقیت بسیار خوب",
+                 "چسبندگی و انعطاف­‌پذیری بسیار خوب",
+                 "حلال­‌خوری خوب"
+               ],
+               Uses:[
+                  "رنگ‌ها و پوشش­‌های صنعتی",
+                  "جلا، لعاب و رنگ کوره­ای",
+                  "رنگ فوری بر پایه نیتروسلولز",
+                  "پوشش چوب",
+                  "جلا، ورنی و شفاف­‌پوشه­‌های اصلاح شده با آمینو رزین"
+               ],
+               Table:[
+                {
+                    propertis:"درصد روغن (تقریبی)",
+                    unit:"% wt",
+                    value:"23",
+                    testMethod:"محاسبه"
+                },
+                {
+                    propertis:"رنگ",
+                    unit:"Gardner",
+                    value:"1>",
+                    testMethod:"ASTM D1544"
+                },
+                {
+                    propertis:"گرانروی (℃25)",
+                    unit:"St",
+                    value:"80-90",
+                    testMethod:"ASTM D1545"
+                },
+                {
+                    propertis:"عدد اسیدی",
+                    unit:"mg KOH/g",
+                    value:"10>",
+                    testMethod:"ASTM D1639"
+                },
+                {
+                    propertis:"درصد جامد",
+                    unit:"% wt",
+                    value:"60±1",
+                    testMethod:"ASTM D1259"
+                },
+                {
+                    propertis:"چگالی  (℃23)",
+                    unit:"g/cm³",
+                    value:"1.0591",
+                    testMethod:"ASTM D1475"
+                },
+                {
+                    propertis:"نقطه اشتعال (جام روباز)",
+                    unit:"℃",
+                    value:"24",
+                    testMethod:"ASTM D92"
+                }
+            ],
+               safety:"شرایط نگهداری متداول در بکارگیری رزین‌­های آلکیدی رعایت گردد. در صورت نیاز، اطلاعات ایمنی محصول در داده برگ ایمنی در دسترس است.",
+               Packaging:"200 کیلوگرم (خالص) در بشکه‌های فولادی.",
+               Storage:"محصول را در محل خنک و در دمای کمتر از ℃25 و به دور از رطوبت و تابش مستقیم نور آفتاب نگهداری نمایید.",
+               Disclaimer:"اطلاعات و پیشنهادهای موجود در این برگه درباره کاربرد محصولات شرکت بنیان کالا شیمی، بر اساس آخرین دانش ما ارائه شده؛ مشروط بر اینکه محصول تحت شرایط معمول و در بازه زمانی معین در طول عمر مفید به درستی نگهداری و استفاده گردد. در عمل، به علت تفاوت­های ذاتی مواد، ساختار شیمیایی و شرایط واقعی محیط، اطلاعات و توصیه­های مطروحه در این برگه، به هیچ وجه به منزله ضمانت در قبال شرایط مصرف این محصول و سازگاری با سایر مواد، تلقی نمی­شود؛ ضمناً مسئولیت پیگرد قانونی در این حوزه نیز از شرکت بنیان کالا شیمی سلب می­گردد. تحت هر شرایطی حقوق مالکیت اشخاص ثالث باید ملاحظه شود. سفارش خرید بر اساس مقررات و قراردادهای جاری فروش و تحویل این شرکت دریافت می­‌شود. به کاربران اکیداً توصیه می­‌شود که همواره به آخرین ویرایش معتبر داده برگ فنی محصول در تارنمای ما به نشانی www.bonyankala.com مراجعه کنند؛ همچنین این اطلاعات از طریق تماس با تیم فروش نیز قابل تهیه است."
+              },
+              ar:{
+                product:"راتنجات الکید، قصیر الزیت",
+                name:"MG",
                 pdf:"BAS-304-Eng.pdf",
                 Description:"BAS 304 X-60 راتنجات الکید، قصیر الزیت، المنتَج علی أساس الأحماض الدهنية زيت جوز الهند، ممتاز بصلابته وجفافه السطحي والعميق، والالتصاق والمرونة والقدرة على تشتيت الصباغ..",
                 Characteristics:[
