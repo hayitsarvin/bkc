@@ -17910,7 +17910,7 @@ export const tds = {
                                                  fa:{
                                                   product:"رزین اپوکسی",
                                                   name:"BEP4604",
-                                                  pdf:"Epoxy resin.pdf",
+                                                  pdf:"BEP4604.pdf",
                                                   Description:"رزین اپوکسی است که از واکنش بیس فنل A و اپی کلروهیدرین با گرید صنعتی تولید می شود. کاربرد اصلی آن در تولید پوشش های پودری صنعتی است.",
                                                   Characteristics:[
                                                    "",
@@ -17969,7 +17969,7 @@ export const tds = {
                                                  ar:{
                                                     product:"راتنجات  الایبوکسي ",
                                                     name:"BEP4604",
-                                                    pdf:"Epoxy resin.pdf",
+                                                    pdf:"BEP4604.pdf",
                                                     Description:"راتنجات  الایبوکسي التي یتمّ إنتاجها من التفاعل بین ثنائي الفنول مع إیبوکلوروهیدرین في درجة صناعیة؛ و تطبيقها الرئيسي هو في إنتاج مسحوق الطلاء الصناعي",
                                                     Characteristics:[
    
@@ -18028,7 +18028,7 @@ export const tds = {
                                                  en:{
                                                   product:"Epoxy Resin",
                                                   name:"BEP4604",
-                                                  pdf:"Epoxy resin.pdf",
+                                                  pdf:"BEP4604.pdf",
                                                   Description:"It is an epoxy resin that is produced from the reaction of bisphenol A and industrial grade epichlorohydrin. Its main application is in the production of industrial powder coatings.",
                                                   Characteristics:[
  
@@ -18092,7 +18092,7 @@ export const tds = {
                                                  ru:{
                                                   product:"Эпоксидная смола",
                                                   name:"BEP4604",
-                                                  pdf:"Epoxy resin.pdf",
+                                                  pdf:"BEP4604.pdf",
                                                   Description:"Это эпоксидная смола, получаемая в результате реакции бисфенола А и эпихлоргидрина промышленного качества. Его основное применение – производство промышленных порошковых покрытий.",
                                                   Characteristics:[
                                                      ""
