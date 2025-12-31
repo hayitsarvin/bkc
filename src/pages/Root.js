@@ -13,12 +13,12 @@ const Root = () => {
         hero:{
           titleFirst:"bonyan",
           titleSecond:"kala chimie",
-          subtitle:"Manufacturer of Saturated Polyester, Unsaturated Polyester Resins, Epoxy Resin, Maleic Resin, Alkyd Resins and Driers",
+          subtitle:"Manufacturer of Resins for Powder Coatings, Unsaturated Polyester Resins, Epoxy Resin, Maleic Resin, Alkyd Resins and Driers",
           heroBtn:"product"
         } ,
         about:{
           title:"we are bonyan kala chimie",
-          subtextone:"Established in 1997 Bonyan Kala Chemie (BKC) is the leading Iranian manufacturer of solvent-based Alkyd and Saturated Polyester ,Unsaturated Polyester Resins ,Epoxy Resin ,Maleic Resin and paint driers.",
+          subtextone:"Established in 1997 Bonyan Kala Chemie (BKC) is the leading Iranian manufacturer of solvent-based Alkyd and Resins for Powder Coatings ,Unsaturated Polyester Resins ,Epoxy Resin ,Maleic Resin and paint driers.",
           subtexttwo:"As a privately owned, ISO certified organisation, BKC is a strong export oriented company with its annual 40 kMT production throughput and sales to domestic and export markets vastly scattered in MENA, CIS and Eastern Europe; for paint, coatings and composite industries.",
           subtextthree:"Our wide product portfolio and application range is strongly supported by a firm backbone of highly competent technical team, state of the art expertise and sophisticated QC/R&D laboratories equipped aligned with international standards"
         },
@@ -31,8 +31,8 @@ const Root = () => {
             name:"alkyd resins",
             
           },
-          SaturatedPolyesterResins:{
-            name:"saturated polyester resins"
+          ResinsForPowderCoatings:{
+            name:"resins for powder coatings"
           },
           Driers:{
             name:"driers"
@@ -123,8 +123,8 @@ const Root = () => {
           AlkydResins:{
             name:"رزین آلکید"
           },
-          SaturatedPolyesterResins:{
-            name:"رزین پلی استر اشباع"
+          ResinsForPowderCoatings:{
+            name:"رزین‌های پوشش پودری"
           },
           Driers:{
             name:"خشک کن"
@@ -215,8 +215,8 @@ const Root = () => {
           AlkydResins:{
             name:"راتنجات الألكيد"
           },
-          SaturatedPolyesterResins:{
-            name:"راتنجات البولیستر غیر المشبعة "
+          ResinsForPowderCoatings:{
+            name:"راتنجات الطلاء المسحوق"
           },
           Driers:{
             name:"مجفّف الطلاء"
@@ -307,8 +307,8 @@ const Root = () => {
           AlkydResins:{
             name:"Алкидные смолы"
           },
-          SaturatedPolyesterResins:{
-            name:"Насыщенные полиэфирные смолы"
+          ResinsForPowderCoatings:{
+            name:"Смолы для порошковых покрытий"
           },
           Driers:{
             name:"Сиккативы"
