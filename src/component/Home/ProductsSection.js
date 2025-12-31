@@ -32,7 +32,7 @@ const ProductsSection = () => {
                 <ProductComponentMobile name={lang.home.products.AlkydResins.name} img="/images/IndustrialPaints&Coatings1.webp" link={"/product-code/1"}/>
                 <ProductComponentMobile flex={"flex-reverse"} name={lang.home.products.ResinsForPowderCoatings.name} img="/images/Pultrusion2.webp" link={"/product-code/2"}/>
                 <ProductComponentMobile  name={lang.home.products.Driers.name} img="/images/Button.webp" link={"/product-code/4"}/>
-                <ProductComponentMobile flex={"flex-reverse"} name={lang.home.products.SolidEpoxyResin.name} img="/images/galeb.webp"  link={"/product-code/5"}/>
+                <ProductComponentMobile flex={"flex-reverse"} name={lang.home.products.EpoxyResin.name} img="/images/galeb.webp"  link={"/product-code/5"}/>
                 <ProductComponentMobile name={lang.home.products.MaleicResin.name} img="/images/Aplication-10-600x400.webp" link={"/tds/BMA401"}/>
                 
 
@@ -129,7 +129,7 @@ const ProductsSection = () => {
     
     
   />
-    <h2 className='name-of-product'>{lang.home.products.SolidEpoxyResin.name}</h2>
+    <h2 className='name-of-product'>{lang.home.products.EpoxyResin.name}</h2>
     </Link>
   </span>
   <span>
