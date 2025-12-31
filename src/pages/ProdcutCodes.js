@@ -42,7 +42,7 @@ const ProdcutCodes = () => {
     </div>
 </>)
   }) 
-  const SaturatedPolyesterResins = productData.SaturatedPolyesterResins.map(data => { 
+  const ResinsForPowderCoatings = productData.ResinsForPowderCoatings.map(data => { 
     return (<>
     <h2  className='product-sub-name'>{data.name}</h2>
 
@@ -156,7 +156,7 @@ const ProdcutCodes = () => {
 {/* <audio src="/video/a.mp3" autoplay></audio> */}
             <h3 className='product-code-title'>{
           id == 1 ? (lang.home.products.AlkydResins.name) : (
-            id == 2 ? (lang.home.products.SaturatedPolyesterResins.name) : (
+            id == 2 ? (lang.home.products.ResinsForPowderCoatings.name) : (
               id == 3 ? (lang.home.products.UnsaturatedPolyesterResins.name) : (
                 id == 4 ? (lang.home.products.Driers.name) : (
                   id == 5 ? (lang.home.products.SolidEpoxyResin.name) : (<></>)
@@ -175,7 +175,7 @@ const ProdcutCodes = () => {
         </div> */}
         {
           id == 1 ? (AlkydResins) : (
-            id == 2 ? (SaturatedPolyesterResins) : (
+            id == 2 ? (ResinsForPowderCoatings) : (
               id == 3 ? (UnsaturatedPolyesterResins) : (
                 id == 4 ? (Driers) : (
                   id == 5 ? (Epoxy) : (<></>)
