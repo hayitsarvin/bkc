@@ -76,17 +76,18 @@ const ProdcutCodes = () => {
     })}
   </div>
 </>)
- const Epoxy = 
- (<>
+ const Epoxy = productData.Epoxy.map(data => { 
+    return (<>
+    <h2 className='product-sub-name'>{lang.languge == "fa" ? data.nameFa : (lang.languge == "en" ? data.name : ( lang.languge == "ru" ? data.nameRu : data.namear))}</h2>
 
-
- <div className='codes-list-div'>
-   {productData.Epoxy.applications.map(d => {
-     return( <CodeComponent  img={d.image} codesArray={d.codes}/>)
-    
-   })}
- </div>
+    <div className='codes-list-div'>
+      {data.applications.map(d => {
+        return( <CodeComponent  img={d.image} codesArray={d.codes}/>)
+       
+      })}
+    </div>
 </>)
+  })
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
