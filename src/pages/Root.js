@@ -37,8 +37,8 @@ const Root = () => {
           Driers:{
             name:"driers"
           },
-          SolidEpoxyResin:{
-            name:"solid epoxy resin"
+          EpoxyResin:{
+            name:"epoxy resin"
           },
           MaleicResin:{
             name:"maleic resin"
@@ -129,8 +129,8 @@ const Root = () => {
           Driers:{
             name:"خشک کن"
           },
-          SolidEpoxyResin:{
-            name:"رزین اپوکسی جامد"
+          EpoxyResin:{
+            name:"رزین اپوکسی"
           },
           MaleicResin:{
             name:"رزین مالئیک"
@@ -221,8 +221,8 @@ const Root = () => {
           Driers:{
             name:"مجفّف الطلاء"
           },
-          SolidEpoxyResin:{
-            name:"راتنجات  الایبوکسي "
+          EpoxyResin:{
+            name:"راتنجات الایبوکسي"
           },
           MaleicResin:{
             name:"راتنجات المالییک"
@@ -313,8 +313,8 @@ const Root = () => {
           Driers:{
             name:"Сиккативы"
           },
-          SolidEpoxyResin:{
-            name:"Твердая Эпоксидные смолы"
+          EpoxyResin:{
+            name:"Эпоксидные смолы"
           },
           MaleicResin:{
             name:"Малеиновая Смола"
