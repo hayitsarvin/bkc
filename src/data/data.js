@@ -56,7 +56,7 @@ export const productData = {
     }
 
 ] ,
-SaturatedPolyesterResins :[
+ResinsForPowderCoatings :[
     {
         name: "PE / TGIC",
         applications: [
