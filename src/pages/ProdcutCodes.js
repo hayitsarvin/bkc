@@ -76,7 +76,7 @@ const ProdcutCodes = () => {
     })}
   </div>
 </>)
- const Epoxy = productData.Epoxy.map(data => { 
+ const ResinsForProtectiveCoatings = productData.ResinsForProtectiveCoatings.map(data => { 
     return (<>
     <h2 className='product-sub-name'>{lang.languge == "fa" ? data.nameFa : (lang.languge == "en" ? data.name : ( lang.languge == "ru" ? data.nameRu : data.namear))}</h2>
 
@@ -160,7 +160,7 @@ const ProdcutCodes = () => {
             id == 2 ? (lang.home.products.ResinsForPowderCoatings.name) : (
               id == 3 ? (lang.home.products.UnsaturatedPolyesterResins.name) : (
                 id == 4 ? (lang.home.products.Driers.name) : (
-                  id == 5 ? (lang.home.products.EpoxyResin.name) : (<></>)
+                  id == 5 ? (lang.home.products.ResinsForProtectiveCoatings.name) : (<></>)
                 )
               )
             )
@@ -179,7 +179,7 @@ const ProdcutCodes = () => {
             id == 2 ? (ResinsForPowderCoatings) : (
               id == 3 ? (UnsaturatedPolyesterResins) : (
                 id == 4 ? (Driers) : (
-                  id == 5 ? (Epoxy) : (<></>)
+                  id == 5 ? (ResinsForProtectiveCoatings) : (<></>)
                 )
               )
             )
