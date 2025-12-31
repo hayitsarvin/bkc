@@ -141,22 +141,32 @@ Driers: {
     ]
     
 },
-Epoxy: {
-    applications:[
-       // {
-       //     image: "/images/Pultrusion2.jpg",
-        //    codes:["BEP4757" , "BEP4809"]
-       // },
-        {
-            image: "/images/IndustrialPaints&Coatings1.jpg",
-            codes:["BEP4503" ,"BEP4604"]
-        },
-        {
-            image: "/images/galeb.jpg",
-            codes:["BEP4701"]
-        }
-    ]
-}
+Epoxy: [
+    {
+        name:"Liquid Epoxy Resin",
+        nameFa:"رزین اپوکسی مایع",
+        nameRu:"Жидкая эпоксидная смола",
+        namear:"راتنجات الایبوکسی السائل",
+        applications:[
+            {
+                image: "/images/galeb.jpg",
+                codes:["BEP4701"]
+            }
+        ]
+    },
+    {
+        name:"Solid Epoxy Resin",
+        nameFa:"رزین اپوکسی جامد",
+        nameRu:"Твердая эпоксидная смола",
+        namear:"راتنجات الایبوکسی الصلب",
+        applications:[
+            {
+                image: "/images/IndustrialPaints&Coatings1.jpg",
+                codes:["BEP4503" ,"BEP4604"]
+            }
+        ]
+    }
+]
 }
 
 export const tds = {
