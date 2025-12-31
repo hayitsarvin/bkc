@@ -141,7 +141,7 @@ Driers: {
     ]
     
 },
-Epoxy: [
+ResinsForProtectiveCoatings: [
     {
         name:"Liquid Epoxy Resin",
         nameFa:"رزین اپوکسی مایع",
