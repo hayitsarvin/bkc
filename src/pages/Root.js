@@ -37,8 +37,8 @@ const Root = () => {
           Driers:{
             name:"driers"
           },
-          EpoxyResin:{
-            name:"epoxy resin"
+          ResinsForProtectiveCoatings:{
+            name:"resins for protective coatings"
           },
           MaleicResin:{
             name:"maleic resin"
@@ -129,8 +129,8 @@ const Root = () => {
           Driers:{
             name:"خشک کن"
           },
-          EpoxyResin:{
-            name:"رزین اپوکسی"
+          ResinsForProtectiveCoatings:{
+            name:"رزین‌های پوشش محافظ"
           },
           MaleicResin:{
             name:"رزین مالئیک"
@@ -221,8 +221,8 @@ const Root = () => {
           Driers:{
             name:"مجفّف الطلاء"
           },
-          EpoxyResin:{
-            name:"راتنجات الایبوکسي"
+          ResinsForProtectiveCoatings:{
+            name:"راتنجات الطلاء الواقي"
           },
           MaleicResin:{
             name:"راتنجات المالییک"
@@ -313,8 +313,8 @@ const Root = () => {
           Driers:{
             name:"Сиккативы"
           },
-          EpoxyResin:{
-            name:"Эпоксидные смолы"
+          ResinsForProtectiveCoatings:{
+            name:"Смолы для защитных покрытий"
           },
           MaleicResin:{
             name:"Малеиновая Смола"
