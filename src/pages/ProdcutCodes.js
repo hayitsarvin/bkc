@@ -160,7 +160,7 @@ const ProdcutCodes = () => {
             id == 2 ? (lang.home.products.ResinsForPowderCoatings.name) : (
               id == 3 ? (lang.home.products.UnsaturatedPolyesterResins.name) : (
                 id == 4 ? (lang.home.products.Driers.name) : (
-                  id == 5 ? (lang.home.products.SolidEpoxyResin.name) : (<></>)
+                  id == 5 ? (lang.home.products.EpoxyResin.name) : (<></>)
                 )
               )
             )
