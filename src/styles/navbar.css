@@ -75,6 +75,10 @@
     right: 0;
     transform: translateY(-102%);
 }
+/* Articles page: show header in "scrolled" state (white bar) by default */
+.navbar.navbar--scrolled .nav-back{
+    transform: translateY(0);
+}
 .navbar .navbar-links-div .link::after{
     content: "";
     position: absolute;
