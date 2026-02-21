@@ -2,6 +2,8 @@ import Footer from "./component/Footer";
 import Navbar from "./component/Navbar";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
+import Articles from "./pages/Articles";
+import ArticleDetail from "./pages/ArticleDetail";
 import Home from "./pages/Home.js";
 import {
   createBrowserRouter,
@@ -37,6 +39,14 @@ function App() {
         {
           path: "contact-us",
           element: <ContactUs />,
+        },
+        {
+          path: "articles",
+          element: <Articles />,
+        },
+        {
+          path: "articles/:slug",
+          element: <ArticleDetail />,
         },
         {
           path: "blog-post/:id",
