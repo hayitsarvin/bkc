@@ -99,6 +99,16 @@ const Root = () => {
           appeight:"Stone industries"
           
         }
+      },
+      articles:{
+        navLabel:"Articles",
+        heroTitle:"BONYAN KALA CHEMIE",
+        heroSubtitle:"Expert knowledge and practical insights in resins, coatings, and advanced materials.",
+        exploreTitle:"Explore Knowledge",
+        exploreSubtext:"Discover technical insights and industry expertise.",
+        searchPlaceholder:"Type keywords to find articles...",
+        readMore:"Read more",
+        category:"Category"
       }
     },
     {
@@ -191,6 +201,16 @@ const Root = () => {
           appeight:"قطعات مقاوم در برابر آتش"
           
         }
+      },
+      articles:{
+        navLabel:"مقالات",
+        heroTitle:"بنیان کالا شیمی",
+        heroSubtitle:"دانش تخصصی و بینش کاربردی در رزین‌ها، پوشش‌ها و مواد پیشرفته.",
+        exploreTitle:"مرکز دانش تخصصی",
+        exploreSubtext:"بینش فنی و تخصص صنعت را کشف کنید.",
+        searchPlaceholder:"کلمات کلیدی را برای یافتن مقالات وارد کنید...",
+        readMore:"ادامه مطلب",
+        category:"دسته‌بندی"
       }
     },
     {
@@ -283,6 +303,16 @@ const Root = () => {
           appeight:"حاویات التخزین للمواد الكيميائية"
           
         }
+      },
+      articles:{
+        navLabel:"المقالات",
+        heroTitle:"بنیان کالا شیمی",
+        heroSubtitle:"معرفة خبراء ورؤى عملية في الراتنجات والطلاءات والمواد المتقدمة.",
+        exploreTitle:"استكشف المعرفة",
+        exploreSubtext:"اكتشف الرؤى التقنية والخبرة الصناعية.",
+        searchPlaceholder:"اكتب الكلمات المفتاحية للعثور على المقالات...",
+        readMore:"اقرأ المزيد",
+        category:"الفئة"
       }
     },
     {
@@ -375,6 +405,16 @@ const Root = () => {
           appeight:"Производство камня"
           
         }
+      },
+      articles:{
+        navLabel:"Статьи",
+        heroTitle:"BONYAN KALA CHEMIE",
+        heroSubtitle:"Экспертные знания и практический опыт в области смол, покрытий и передовых материалов.",
+        exploreTitle:"Изучайте знания",
+        exploreSubtext:"Технические обзоры и отраслевая экспертиза.",
+        searchPlaceholder:"Введите ключевые слова для поиска статей...",
+        readMore:"Читать далее",
+        category:"Категория"
       }
     }
   ]
